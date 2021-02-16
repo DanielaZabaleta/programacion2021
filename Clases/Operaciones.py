@@ -3,8 +3,8 @@ NumeroB = 83
 sumar = NumeroA + NumeroB 
 print ("el resultado de la suma es", sumar)
 print (f"la suma dio {sumar} exitoasamente")
-resta = NumeroA - NumeroB
-print ("el resultado de la resta es", resta)
+restar = NumeroA - NumeroB
+print ("el resultado de la resta es", restar)
 multiplicar = NumeroA * NumeroB
 print ("el resultado de la multiplicacion es", multiplicar)
 dividir = NumeroA / NumeroB
