@@ -2,6 +2,8 @@ NumeroA = 8
 NumeroB = 21
 isNumeroMayor = NumeroA > NumeroB
 print (isNumeroMayor)
+isNumeroMayorIgual = NumeroA >= NumeroB
+print (isNumeroMayorIgual)
 isNumeroMenor = NumeroA < NumeroB
 print (isNumeroMenor)
 isNumerosIguales = NumeroA == NumeroB
