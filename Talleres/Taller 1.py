@@ -13,6 +13,7 @@ isNumerosIguales = NumeroA == NumeroB
 print (isNumerosIguales)
 isNumerosDiferentes = NumeroA != NumeroB
 print (isNumerosDiferentes)
+#-----Operaciones-----#
 Sumar = NumeroA + NumeroB
 print ("el resultado de la suma es", Sumar)
 Restar = NumeroA - NumeroB
