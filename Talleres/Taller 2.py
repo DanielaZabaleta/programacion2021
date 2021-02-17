@@ -11,5 +11,17 @@ print (MENSAJE_SALUDO, Nombre)
 print (ENUNCIADO)
 NumeroA = int (input (PREGUNTA_NUMEROA))
 NumeroB = int (input (PREGUNTA_NUMEROB))
-isNumeroMayor = PREGUNTA_NUMEROA > PREGUNTA_NUMEROB
+isNumeroMayor = NumeroA > NumeroB
 print (isNumeroMayor)
+isNumeroMayorIgual = NumeroA >= NumeroB
+print (isNumeroMayorIgual)
+isNumeroMenor = NumeroA < NumeroB
+print (isNumeroMenor)
+isNumeroMenorIgual = NumeroA <= NumeroB 
+print (isNumeroMenorIgual)
+isNumerosIguales = NumeroA == NumeroB 
+print (isNumerosIguales)
+isNumerosDiferentes = NumeroA != NumeroB 
+print (isNumerosDiferentes)
+
+#-----Operaciones-----#
