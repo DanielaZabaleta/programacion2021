@@ -1,5 +1,8 @@
+#-----Constantes-----#
 NumeroA = 8
 NumeroB = 21
+
+#-----Entrada al codigo-----#
 isNumeroMayor = NumeroA > NumeroB
 print (isNumeroMayor)
 isNumeroMayorIgual = NumeroA >= NumeroB
