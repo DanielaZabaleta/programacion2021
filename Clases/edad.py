@@ -6,4 +6,12 @@ PREGUNTA_EDAD = "Cuantos años tienes? :"
 
 #-----Entrada al codigo-----#
 print (MENSAJE_BIENVENIDA)
-edad = int (inout(PREGUNTA_EDAD))
+edad = int (input (PREGUNTA_EDAD))
+isMayor = edad >= 18 
+resultado = ""
+if (isMayor):
+    resultado = MENSAJE_MAYOR_EDAD
+else: 
+    resultado = MENSAJE_MENOR_EDAD
+
+print (resultado)
