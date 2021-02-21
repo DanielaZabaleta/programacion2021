@@ -79,7 +79,11 @@ print ("Ejercicio 4")
 
 #----Constantes----#
 PREGUNTA_MEDIDA = "Ingrese una distancia en centimentros, por favor : "
-PREGUNTA_UNIDADES = "Ingrese en que unidades desea transformar el anterior valor : "
+PREGUNTA_UNIDADES = ''' Ingrese en que unidades desea transformar el valor :
+      K - Kilometros
+      M - Metros 
+      mm -milimetros
+'''
 MENSAJE_ERROR = "Entrada no valida, repita el proceso"
 #----Entrada al codigo----#
 Medida = float (input(PREGUNTA_MEDIDA))
@@ -88,12 +92,11 @@ Unidades = input (PREGUNTA_UNIDADES)
 Metros = Medida / 100
 Kilometros = Medida / 10**5
 Milimetros = Medida * 10
-
-if (Unidades == Kilometros):
+if (Unidades == 'K'):
     print (Kilometros)
-elif (Unidades == Metros):
+elif (Unidades == 'M'):
     print (Metros)
-elif (Unidades == Milimetros):
+elif (Unidades == 'mm'):
     print (Milimetros)
 else: 
     print (MENSAJE_ERROR)
