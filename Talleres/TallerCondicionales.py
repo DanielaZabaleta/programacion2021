@@ -50,7 +50,7 @@ elif (isAdulto):
     Resultado = MENSAJE_ADULTO
 else:
     print (MENSAJE_ADULTO_MAYOR)
-    Resultado = MENSAJE_ADULTO
+    Resultado = MENSAJE_ADULTO_MAYOR
 
 print (Resultado)
 
