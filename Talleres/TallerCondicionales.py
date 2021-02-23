@@ -4,7 +4,7 @@ print ("Ejercicio 1")
 PREGUNTA_NUMERO_1 = "Ingrese un primer numero :"
 PREGUNTA_NUMERO_2 = "Ingrese un segundo numero :"
 MENSAJE_MAYOR = "El numero 1 es mayor que el numero 2"
-MENSAJE_IGUAL ="Numero 1 y Numero 2 son iguales"
+MENSAJE_IGUAL ="Numero 1 y Numero 2 son iguales" 
 MENSAJE_MAYOR_2 ="El numero 2 es mayor que el numero 1"
 #----Entrada al codigo----#
 Numero1 = int (input(PREGUNTA_NUMERO_1))
