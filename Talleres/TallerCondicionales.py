@@ -82,7 +82,7 @@ PREGUNTA_MEDIDA = "Ingrese una distancia en centimentros, por favor : "
 PREGUNTA_UNIDADES = ''' Ingrese en que unidades desea transformar el valor :
       K - Kilometros
       M - Metros 
-      mm -milimetros
+      mm - milimetros
 '''
 MENSAJE_ERROR = "Entrada no valida, repita el proceso"
 #----Entrada al codigo----#
