@@ -15,7 +15,7 @@ while (NumeroOculto != NumeroIngresado and Vidas > 0):
     NumeroIngresado = int (input(PREGUNTA_FALLIDA))
     Vidas -=1
 
-if (Vidas >= 0 and NumeroIngresado == NumeroOcultoDos):
+if (Vidas >= 0 and NumeroIngresado == NumeroOculto):
     print (MENSAJE_GANASTE)
     print (Vidas)
 else:
