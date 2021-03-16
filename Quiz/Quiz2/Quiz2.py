@@ -20,7 +20,7 @@ MensajeEuros = 'Mostrando lista en euros'
 MensajeMayor = 'El mayor numero ingresado es -> '
 MensajeMenor = 'El menor numero ingresado es -> '
 MensajePromedio = 'El promedio es -> '
-MensajeDespedidad = 'Que tengas un feliz dia'
+MensajeDespedida = 'Que tengas un feliz dia'
 #----Error----#
 MensajeErrorEntrada = 'Valor ingresado no valido'
 
