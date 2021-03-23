@@ -47,6 +47,19 @@ def potenciar (base = 0,exponente = 1):
     potencia = base ** exponente
     return potencia
 
+#----Funciones dependientes de otras----#
+def calcular (operacion,NumeroA,NumeroB):
+    print (operacion(NumeroA,NumeroB))
+
+
+BaseIngresada = int (input('Ingrese una base entera: '))
+ExponenteIngresado = int (input('Ingrese un exponente entero: '))
+
+
 print (restar(83,87))
 print (multiplicar(83,87))
 print (dividir(83,87))
+print (dividir())
+print (potenciar(BaseIngresada,ExponenteIngresado))
+
+calcular (sumar,63,67)
