@@ -31,8 +31,8 @@ def ClasificarTemperaturas (temperaturas):
         ListaClasificacion.append (Estado)
     return ListaClasificacion 
 def MostrarTopes (lista):
-    mayor = round (max(lista,2))
-    menor = round (min(lista,2))
+    mayor = round (max(lista),2)
+    menor = round (min(lista),2)
     PeriodoHoras = round (24/len(lista),2)
     print ('La mayor temperatura es', mayor)
     print ('La menor temperatura es', menor)
