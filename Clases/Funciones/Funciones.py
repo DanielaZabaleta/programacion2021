@@ -25,3 +25,11 @@ def potenciar (base = 0,exponente = 1):
 #----Funciones dependientes de otras----#
 def calcular (operacion,NumeroA,NumeroB):
     print (operacion(NumeroA,NumeroB))
+
+def MostrarLista (lista):
+    for elemento in lista:
+        print (elemento)
+
+def Mostrar2Lista (lista1,lista2):
+    for i in range (len (lista1)):
+        print (lista1 [i], '\t', lista2 [i])
