@@ -91,3 +91,6 @@ favoritos1 = Favoritos('cancion','mp3',2020,favoritas,2021)
 favoritos1.mostrarEliminarLista(3)
 favoritos1.agregarCancion('Cancion nueva agregada',2021)
 print (favoritos1.favoritos)
+
+#Daniela Zabaleta 
+#Paulina Florez 
