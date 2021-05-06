@@ -40,3 +40,17 @@ plt.pie(sizes,labels=pieLabels,
 
 plt.title("Ciudades más pobladas de Colombia")
 plt.show() 
+
+#----Punto 3----#
+print ('Punto 3 - Grafico Curvas')
+
+import pandas as pd
+
+ppgData = pd.read_csv ('ppg.csv', encoding= 'UTF-8', header= 0, delimiter= ';').to_dict ()
+muestras = list (ppgData ['muestra'].values ())
+valores = list (ppgData ['valor'].values ())
+plt.plot (muestras, valores)
+plt.xlabel ('Tiempo (ms)')
+plt.ylabel ('Volataje (mV)')
+plt.title ('Fotopletismografia')
+plt.show ()
