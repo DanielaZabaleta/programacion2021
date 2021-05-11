@@ -26,7 +26,7 @@ def etiquetarElementosPorcentuales(sizes, labels, indicador= ' --> '):
         pieLabels[i] += indicador + str(porcentaje) +'%'
 
 
-pieExplode = [0.1,0,0,0,0]
+pieExplode = [0.2,0,0,0,0]
 acumulador = 0
 pieLabels = ['Bogota', 'Medellin','Cali', 'Barranquilla', 'Cartagena']
 sizes = [7743955, 2533424, 2252616, 1274250, 1028736]
