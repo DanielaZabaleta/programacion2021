@@ -1,0 +1,5 @@
+Archivo datos de estudiantes
+nombre: Daniela edad: 18 estatura: 1.61
+nombre: Daniela edad: 21 estatura: 1.61
+nombre: Jesus  edad: 12 estatura: 1.38
+nombre: Daniela  edad: 18 estatura: 1.61
