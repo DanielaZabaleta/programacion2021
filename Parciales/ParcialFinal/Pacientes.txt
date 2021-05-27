@@ -1,0 +1,2 @@
+Manejo de los datos del paciente
+Nombre: Feder Descripcion: Sensacion incomoda irritante que crea deseo de rascarse y que puede afectar a cualquier parte del cuerpo. Precio: 25.0
